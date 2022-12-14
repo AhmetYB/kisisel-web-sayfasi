@@ -1,0 +1,142 @@
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                font-family: sans-serif;
+                                box-sizing: border-box;
+                                text-decoration: none;
+                            }
+                            
+                            p {
+                                color: #0fe020;
+                            }
+                            
+                            body {
+                                height: 100vh;
+                                background: url(images.jpg);
+                                background-size: 100% 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            
+                            .profile-card {
+                                width: 400px;
+                                text-align: center;
+                                border-radius: 8px;
+                            }
+                            
+                            .card-header {
+                                background: #181a1d;
+                                padding: 40px 60px;
+                            }
+                            
+                            .card-header2 {
+                                background: #181a1d;
+                                padding: 40px 30px;
+                            }
+                            
+                            .picture img {
+                                display: block;
+                                width: 100px;
+                                height: 100px;
+                                border-radius: 50%;
+                            }
+                            
+                            .picture {
+                                display: inline-block;
+                                padding: 8px;
+                                background: linear-gradient(130deg, #74b9ff, #e28341);
+                                margin: auto;
+                                border-radius: 50%;
+                                animation: animasyon 2s linear infinite;
+                                background-size: 200% 200%;
+                            }
+                            
+                            @keyframes animasyon {
+                                25% {
+                                    background-position: left bottom;
+                                }
+                                50% {
+                                    background-position: right bottom;
+                                }
+                                75% {
+                                    background-position: right top;
+                                }
+                                100% {
+                                    background-position: left top;
+                                }
+                            }
+                            
+                            .name {
+                                color: #f2f2f2;
+                                font-size: 28px;
+                                font-weight: 600;
+                                margin: 10px 0;
+                            }
+                            
+                            .desc {
+                                font-size: 18px;
+                                color: #e66767;
+                            }
+                            
+                            .sm {
+                                display: flex;
+                                justify-content: center;
+                                margin: 20px 0px;
+                            }
+                            
+                            .sm a {
+                                color: #f2f2f2;
+                                width: 56px;
+                                font-size: 22px;
+                                transition: .3s linear;
+                            }
+                            
+                            .sm a:hover {
+                                color: #e66767;
+                            }
+                            
+                            .sertifika {
+                                display: flex;
+                                justify-content: center;
+                                margin: 20px 0px;
+                            }
+                            
+                            .sertifika a {
+                                color: #f2f2f2;
+                                width: 100px;
+                                font-size: 15px;
+                                transition: .3s linear;
+                            }
+                            
+                            .sertifika a:hover {
+                                color: #e66767;
+                            }
+                            
+                            .button {
+                                display: inline-block;
+                                padding: 12px 50px;
+                                color: #e66767;
+                                border: 2px solid #f2f2f2;
+                                border-radius: 6px;
+                                margin-top: 16px;
+                            }
+                            
+                            .button:hover {
+                                background: #e28341;
+                                color: white;
+                            }
+                            
+                            .sbutton {
+                                display: inline-block;
+                                padding: 12px 50px;
+                                color: #c90c0c;
+                                border: 2px solid #0c0c0c;
+                                border-radius: 6px;
+                                margin-top: 16px;
+                            }
+                            
+                            .sbutton:hover {
+                                background: #0fe020;
+                                color: rgb(12, 9, 197);
+                            }
